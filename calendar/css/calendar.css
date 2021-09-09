@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#container {
+  max-width: 855px;
+  width: 80%;
+  height: auto;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+}
+
+#leftsection {
+  width: 120px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: purple;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+}
+#links button {
+  width: 100px;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+
+#bottomleft {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#Topsection {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 80px;
+}
+#Topsection h3 {
+  display: flex;
+  align-self: center;
+  margin-left: 10px;
+}
+#Topsection #threebuttons {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#Topsection #threebuttons button {
+  height: 40px;
+  width: 60px;
+}
+#Topsection #twobuttons {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+#Topsection button {
+  height: 40px;
+  width: 60px;
+}
+
+#topandcal {
+  display: flex;
+  flex-direction: column;
+}
+
+#calendar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#calendar #day {
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+}
+
+@media screen and (max-width: 832px) {
+  #Topsection h3 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=calendar.css.map */
